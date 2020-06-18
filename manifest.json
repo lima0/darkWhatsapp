@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "darkWhatsapp",
+    "version": "1.0",
+  
+    "description": "Enables Whatsap web's unreleased dark mode",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["dark.js"]
+      }
+    ]
+  }
