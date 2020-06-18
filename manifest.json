@@ -4,11 +4,15 @@
     "version": "1.0",
   
     "description": "Enables Whatsap web's unreleased dark mode",
-  
+
+    "icons": {
+        "48": "images/logo.png"
+      },
+    
     "content_scripts": [
       {
         "matches": ["*://web.whatsapp.com/*"],
-        "js": ["dark.js"]
+        "js": ["src/dark.js"]
       }
     ]
   }
